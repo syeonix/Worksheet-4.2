@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cakes of Ivan</title>
+
+</head>
+<body>
+	<div id="header"> </div>
+
+
+	<div class="bgtitle"> 
+	<div id ="title">
+		<div class="left">
+		<img src="cake.png" class="cake"> 
+		</div>
+		<div class="right">
+		<h1>
+			Cakes of Ivan
+		</h1>
+		<h6>WEDDING CAKES.       BIRTHDAY CAKES.      DESSERT CAKES.</h6>
+		<hr class="titleline">
+		<p class="desp"> We specialize in making stunning, distinctive wedding cakes that are delicious. <br> <br>Complete your special day with our products.
+		</p>
+		</div>
+
+		<div>
+			<a href="#bgform"><button class="button button1"> ORDER NOW </button></a>
+			<a href="contact.html"><button class="button button2">CONTACT US</button></a>
+
+		</div>
+		<hr class="bot">	
+	</div>
+	
+	</div>
+	
+	<div class="white"></div>
+	<div class="brown"></div>
+
+	<div class="bgform" id="bgform">
+	<div class="div1"> 
+		
+	<div>
+	<img src="top.png">	 <!-- https://www.pinterest.ph/pin/788833690953874915/ -->
+	<div class="hehe">Wedding Cake Order Form</div>
+	</div>
+	<form>
+
+	<div class="header">
+	<h3>Wedding Cake Details</h3>
+		<hr class="design">
+	<p> Choose one (1) from each flavor, filling, and icing category. Don't forget to select the number of tiers!</p>
+	</div>
+
+	<div class="cakeflavor bold">
+		<label for="tiers" class="bold">Tiers (1-5):</label><input type="number" name="tiers" id="tiers" min="1" max="5" required>
+		<br><br>
+		Cake Flavor: <br>
+		<input type="radio" name="flavor" id="tw" value="traditionalwhite" checked="checked"> 
+		<label for="tw" class="italic"> Traditional White</label> <br>
+		<input type="radio" name="flavor" id="dfc" value="Devil'sFoodChocolate"> 
+		<label for="dfc" class="italic"> Devil's Food Chocolate</label><br>
+		<input type="radio" name="flavor" id="rv" value="redvelvet"> 
+		<label for="rv" class="italic"> Red Velvet</label><br>
+		<input type="radio" name="flavor" id="l" value="Lemon"> 
+		<label for="l" class="italic"> Lemon </label><br>
+
+	</div>
+
+	<div class="filling bold">
+		
+		Filling: <br>
+		<input type="radio" name="fillings" id="rb" value="raspberryjam" checked="checked"> 
+		<label for="rb" class="italic" > Raspberry Jam </label><br>
+		<input type="radio" name="fillings" id="sj" value="strawberryjam"> 
+		<label for="sj" class="italic"> Strawberry Jam </label><br>
+		<input type="radio" name="fillings" id="bc" value="buttercream"> 
+		<label for="bc" class="italic"> Buttercream </label><br>
+		<input type="radio" name="fillings" id="aj" value="apricotjam"> 
+		<label for="aj" class="italic"> Apricot Jam </label><br>
+
+	</div>
+
+
+	<div class="icing bold">
+		Icing: <br>
+		<input type="radio" name="icing" id="buttercream" value="buttercream" checked="checked"> 
+		<label for="buttercream" class="italic"> Buttercream </label><br>
+		<input type="radio" name="icing" id="cc" value="creamcheese"> 
+		<label for="cc" class="italic"> Cream Cheese </label><br>
+		<input type="radio" name="icing" id="me" value="mochaespresso"> 
+		<label for="me" class="italic"> Mocha Espresso </label><br>
+	</div>
+
+	<br><br><br><br><br>
+	<div class= "additions">
+	<p>Want to give your cake an extra twist? Feel free to add additional stuff, or why not just add all of it?</p>
+	<div class="inside">
+		Inside Cake Additions: <br>
+		<input type="checkbox" name="insideadd" id="wl" value="walnut"> 
+		<label for=wl class="italic" > Walnut </label><br>
+		<input type="checkbox" name="insideadd" id="chocochips" value="chocolatechip"> 
+		<label for="chocochips" class="italic"> Chocolate Chips </label><br>
+		<input type="checkbox" name="insideadd" id="pc" value="pecans"> 
+		<label for="pc" class="italic"> Pecans </label><br>
+		<input type="checkbox" name="insideadd" id="wcc" value="whitechocolatechips"> 
+		<label for="wcc" class="italic" > White Chocolate Chips </label><br>
+
+	</div>
+
+	<div class="decor bold">
+		Decorative Additions: <br>
+		<input type="checkbox" name="decorativeadd" id="wl2" value="walnut"> 
+		<label for=wl2 class="italic" > Walnut </label><br>
+		<input type="checkbox" name="decorativeadd" id="chocochips2" value="chocolatechip"> 
+		<label for="chocochips2" class="italic"> Chocolate Chips </label><br>
+		<input type="checkbox" name="decorativeadd" id="pc2" value="pecans"> 
+		<label for="pc2" class="italic"> Pecans </label><br>
+		<input type="checkbox" name="decorativeadd" id="wcc2" value="whitechocolatechips"> 
+		<label for="wcc2" class="italic"> White Chocolate Chips </label><br>
+
+	</div>
+
+	<div class="Liquor bold">
+		<label for="li"> Liquor Infusion: </label> <br>
+		<select name="Liquor" id="li">
+		<option value="Rum"> Rum </option>
+		<option value="Amaretto"> Amaretto </option>	
+		<option value="Kaluha"> Kaluha </option>	
+		<option value="None"> None </option>		
+		</select>
+	</div>
+
+
+	</div>
+	<br><br>
+
+	<div class="Customer">
+	<h3>Customer Details</h3>
+		<hr class="design">
+		<br>
+	<div>
+		
+		<label for="name">Name:</label><input type="text" name="name" placeholder="Full Name" id="name" required>
+		<br>
+		<label for="mobile">Mobile Number:</label><input type="tel" placeholder="09XXXXXXXXX" pattern="09[0-9]{9}" name="mobile" id="mobile" max="11" required>
+		<br>
+		<label for="email">Email Address: </label> <input type="email" placeholder="example@gmail.com" name="email" id="email" required>
+		<br>
+	</div>
+
+	</div>
+
+	<div class="delivery">
+	<h3>Delivery Details</h3>
+		<hr class="design"> <br>
+	
+	<div>
+		<label for="delivery"> Delivery Address: </label><br>
+		<textarea id="delivery" placeholder="Address here..." required></textarea>
+		<br>
+		<label for="pdd">Preferred delivery date: </label><input type="date" name="ddate" id="pdd" required> 
+		<br>
+		<label for="pdt">Preferred delivery time: </label><input type="time" name="dtime" id="pdt" required> 
+	</div>
+	</div>
+
+	<div class="pangsubmit"> 
+		<input type="submit" value="SUBMIT">
+		<input type="reset" value="RESET">
+	</div>
+
+	</div>
+
+
+	</form>
+
+	</div>
+
+	<div id="footer"> </div>
+
+</body>
+</html>
